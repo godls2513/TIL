@@ -93,6 +93,8 @@ git commit이라는 명령어를 통해 특정 Repository에 저장한다. 이�
 
 `git clone {repository address}` 	remote repo를 local로 복사 (clone한 repository는 remote repository와 연결 되어 있다. 따라서 바로 push 할 수 있다.)
 
-`git push origin master`
+`git clone {repository address} .` 현재 경로에 클론하는 명령어
+
+`git push` 클론된 레포지토리는 git push만 해줘도 잘 올라간다
 
 `git remote remove origin` 기존 레포지토리 remote 제거 명령어
