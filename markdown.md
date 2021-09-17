@@ -7,12 +7,14 @@
 - 문서의 제목이나, 소제목을 나타내는 태그
 - 문서 구조의 기본
 - 글자 크기를 키우기 위해 사용하면 안된다.
+-
 ```
 
 ## 리스트(list)
 
 ```
 순서가 없는 항목
+하이픈(-)과 (*)로 사용
 - First item
 - Second item
 - Third item
@@ -85,8 +87,8 @@ markdown.assets/dog.jpg 상대 경로 (내가 있는 위치를 기준으로 하�
 ## 텍스트 강조(Text Emphasis)
 
 ```
-굵은 글씨체 : 	**bold text**
-기울임 글씨체 : *italicized text*
+굵은 글씨체 : 	**bold text** 또는 __bold__
+기울임 글씨체 : *italicized text* 또는 _italic_
 취소선 : ~~The world is flat.~~
 
 ```
@@ -143,7 +145,7 @@ ___
 
 
 
-
+​	
 
 
 
